@@ -9,7 +9,7 @@ const openInvitation = () => {
 <template>
   <v-container height="100dvh" class="relative p-0 overflow-hidden">
     <img
-      src="/public/img/galeri/4.png"
+      src="/public/img/galeri/4.webp"
       alt=""
       class="h-full scale-[1.4] object-cover object-bottom"
     />
@@ -23,7 +23,7 @@ const openInvitation = () => {
             <img
               src="/public/img/ultah.webp"
               alt=""
-              class="w-[100px] h-[100px]"
+              class="w-[50px] h-[50px]"
             />
           </div>
           <p

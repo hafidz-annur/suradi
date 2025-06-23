@@ -84,14 +84,14 @@ onMounted(() => {
   audio.value = new Audio(props.data?.musik);
   autoplay_menu.value = true;
   // autoplayMenu();
-  // playMusic();
+  playMusic();
 });
 </script>
 
 <template>
   <div class="fixed top-[10px] left-0 w-full z-[9999] flex flex-col">
-    <div class="flex justify-between px-5">
-      <v-btn
+    <div class="flex justify-end px-5">
+      <!-- <v-btn
         size="x-small"
         color="primary"
         :icon="!autoplay_menu ? 'mdi-play-outline' : 'mdi-pause'"
@@ -100,7 +100,7 @@ onMounted(() => {
           autoplayMenu();
         "
         class="mb-2"
-      />
+      /> -->
       <v-btn
         size="x-small"
         color="primary"

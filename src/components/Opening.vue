@@ -52,7 +52,7 @@ const saveCalendar = () => {
               <img
                 src="/public/img/ultah.webp"
                 alt=""
-                class="w-[100px] h-[100px]"
+                class="w-[70px] h-[70px]"
               />
             </div>
 
