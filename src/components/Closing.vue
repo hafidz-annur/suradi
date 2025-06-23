@@ -27,7 +27,7 @@ const props = defineProps({ data: Object, caption: Object });
           <img src="/public/logo.png" alt="Āmantrana" class="w-20" />
         </div>
         <div class="text-center">
-          <small>Digital Wedding Invitation © 2025</small>
+          <small>Amantrana © 2025</small>
         </div>
       </div>
     </div>

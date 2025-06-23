@@ -15,23 +15,20 @@ const props = defineProps({ data: Object });
     >
       <div class="flex justify-center items-center px-5 h-full">
         <div class="text-center w-full">
-          <p class="mb-10" data-aos="zoom-in" data-aos-delay="500">
-            Bergabunglah bersama kami untuk menyaksikan dan merayakan momen
-            penuh syukur ini. Kami ingin Anda menjadi bagian dari hari istimewa
-            kami dalam merayakan 70 tahun perjalanan hidup yang penuh makna.
-          </p>
-
           <div class="flex justify-center">
             <div class="w-[70%]">
               <div data-aos="fade-left" data-aos-delay="1000">
                 <div class="p-5 py-2">
-                  <v-icon
-                    icon="mdi-cake-variant"
-                    class="mb-2"
-                    size="25"
-                    color="white"
-                  ></v-icon>
-                  <h4 class="text-3xl text-white text-nowrap">Tasyukuran</h4>
+                  <div
+                    class="flex justify-center animate__animated animate__zoomIn"
+                  >
+                    <img
+                      src="/public/img/ultah.webp"
+                      alt=""
+                      class="w-[50px] h-[50px]"
+                    />
+                  </div>
+                  <h4 class="text-5xl text-white text-nowrap">Tasyakuran</h4>
                 </div>
                 <div>
                   <div
@@ -39,24 +36,23 @@ const props = defineProps({ data: Object });
                   >
                     <div class="w-40">
                       <v-divider thickness="3" color="white" opacity="1" />
-                      <p class="my-2 text-center">Senin</p>
+                      <p class="my-2 text-center text-2xl">Rabu</p>
                       <v-divider thickness="3" color="white" opacity="1" />
                     </div>
                     <div class="w-20">
-                      <p>2025</p>
+                      <p class="text-lg">2025</p>
                       <p class="text-3xl">25</p>
-                      <p>Jam 10.00</p>
+                      <p class="text-lg">18.30</p>
                     </div>
                     <div class="w-40 text-center">
                       <v-divider thickness="3" color="white" opacity="1" />
-                      <p class="my-2">Juni</p>
+                      <p class="my-2 text-2xl">Juni</p>
                       <v-divider thickness="3" color="white" opacity="1" />
                     </div>
                   </div>
                   <div class="text-center">
-                    
-                    <p class="mt-5">
-                      Toko Bangunan Laris Berkah, Jatipurno, Jatipurno <br />
+                    <p class="mt-5 text-[14px]">
+                      Toko Bangunan Laris Berkah, Jatipurno, Jatipurno
                       KAB. WONOGIRI, JATIPURNO, JAWA TENGAH, ID, 57693
                     </p>
                   </div>

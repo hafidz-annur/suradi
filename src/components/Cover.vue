@@ -9,18 +9,25 @@ const openInvitation = () => {
 <template>
   <v-container height="100dvh" class="relative p-0 overflow-hidden">
     <img
-      src="/public/img/galeri/6.jpg"
+      src="/public/img/galeri/4.png"
       alt=""
       class="h-full scale-[1.4] object-cover object-bottom"
     />
 
     <div
-      class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#1E1E1E]/50 to-[#1E1E1E]"
+      class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-gray-200/5 to-gray-800"
     >
       <div class="absolute bottom-10 left-0 w-full flex justify-center">
         <div class="text-center pt-10">
+          <div class="flex justify-center animate__animated animate__zoomIn">
+            <img
+              src="/public/img/ultah.webp"
+              alt=""
+              class="w-[100px] h-[100px]"
+            />
+          </div>
           <p
-            class="font-bold text-[#fad6b2] text-[14px] uppercase text-dark animate__animated animate__zoomIn  my-2"
+            class="font-bold text-[#CFB893] text-[14px] uppercase text-dark animate__animated animate__zoomIn my-2"
           >
             Tasyakuran Ulang Tahun
           </p>
@@ -31,16 +38,16 @@ const openInvitation = () => {
           </h1>
 
           <h1
-            class="text-8xl text-[#a07951] font-bold animate__animated animate__zoomIn animate__delay-1s my-2"
+            class="text-8xl text-[#CFB893] font-bold animate__animated animate__zoomIn animate__delay-1s my-2"
           >
             70 <sup>th</sup>
           </h1>
           <v-btn
             @click="openInvitation"
-            color="primary"
-            size="small"
+            color="#CFB893"
             prepend-icon="mdi-email-open-heart-outline"
             class="mt-5 animate__animated animate__zoomIn animate__delay-2s"
+            rounded
           >
             Buka Undangan
           </v-btn>

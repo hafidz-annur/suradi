@@ -1,13 +1,11 @@
 const data = {
   musik: "musik/nikah.mp3",
-  foto_cover: ["img/galeri/6.jpg"],
+  foto_cover: ["img/galeri/2.png"],
   foto_opening: [
-    "img/galeri/1.jpg",
-    "img/galeri/2.jpg",
-    "img/galeri/3.jpg",
-    "img/galeri/4.jpg",
-    "img/galeri/5.jpg",
-    "img/galeri/6.jpg",
+    "img/galeri/1.png",
+    "img/galeri/2.png",
+    "img/galeri/3.png",
+    "img/galeri/4.png"
   ],
   lokasi: {
     tempat: "Gedung Serba Guna Mutiara",

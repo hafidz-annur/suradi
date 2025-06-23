@@ -3,10 +3,10 @@ import { ref } from "vue";
 import moment from "moment";
 
 const props = defineProps({ data: Object, caption: Object });
-const deadline = ref("2025-06-25 10:00:00");
+const deadline = ref("2025-06-25 18:30:00");
 
 const saveCalendar = () => {
-  const title = "&text=Tasyukuran Ulang Tahun ke 70 Kakung Suradi";
+  const title = "&text=Tasyakuran Ulang Tahun ke 70 Kakung Suradi";
   const location = "Wonogiri";
   const dates =
     "&dates=" +
@@ -26,7 +26,7 @@ const saveCalendar = () => {
 <template>
   <v-container height="100dvh" class="relative overflow-hidden p-0">
     <v-carousel
-      height="89dvh"
+      height="100dvh"
       :show-arrows="false"
       :cycle="true"
       :interval="6000"
@@ -36,32 +36,25 @@ const saveCalendar = () => {
         v-for="(item, i) in props.data?.foto_opening"
         :key="i"
         :src="item"
-        height="89dvh"
+        height="100dvh"
         cover
       ></v-carousel-item>
     </v-carousel>
     <div
-      class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#1E1E1E]/70 to-[#1E1E1E]"
+      class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-gray-200/5 to-[#1E1E1E]"
     >
       <div class="p-5">
         <div
-          class="text-center pt-5 animate__animated animate__zoomIn animate__delay-1s"
-        >
-          <p class="text-[12px] mt-3">
-            Assalamu’alaikum warahmatullahi wabarakatuh. <br />
-            Dengan izin Allah SWT, kami mengundang Bapak/Ibu/Saudara/i ke
-            syukuran ulang tahun ke-70 sebagai wujud syukur atas nikmat usia dan
-            kesehatan.
-          </p>
-        </div>
-
-        <div
-          class="absolute bottom-[12rem] left-0 w-full flex justify-center animate__animated animate__zoomIn animate__delay-2s"
+          class="absolute bottom-[12rem] left-0 w-full flex justify-center animate__animated animate__zoomIn animate__delay-1s"
         >
           <div class="w-full text-center">
-            <h1 class="text-4xl text-white">Kakung Suradi</h1>
-
-            <p class="mb-3">Senin, 25 Juni 2025</p>
+            <div class="flex justify-center">
+              <img
+                src="/public/img/ultah.webp"
+                alt=""
+                class="w-[100px] h-[100px]"
+              />
+            </div>
 
             <vue3-flip-countdown
               countdownSize="1.4rem"
@@ -76,16 +69,15 @@ const saveCalendar = () => {
                 seconds: 'Detik',
               }"
               :deadline="deadline"
-              class="animate__animated animate__zoomIn animate__delay-2s text-white"
+              class="animate__animated animate__zoomIn animate__delay-2s t1xt-white"
             />
 
             <v-btn
-              color="primary"
-              size="small"
+              color="#69B8CF"
               prepend-icon="mdi-calendar"
               @click="saveCalendar"
-              class="mt-3"
-              rounded="0"
+              class="mt-3 animate__animated animate__zoomIn animate__delay-2s"
+              rounded
             >
               Simpan Tanggal
             </v-btn>
@@ -93,7 +85,7 @@ const saveCalendar = () => {
         </div>
       </div>
     </div>
-    <div class="absolute bottom-5 left-0">
+    <div class="absolute bottom-5 left-0 animate__animated animate__zoomIn animate__delay-2s">
       <div class="px-3">
         <Splide
           :options="{
