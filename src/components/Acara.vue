@@ -26,12 +26,12 @@ const props = defineProps({ data: Object });
               <div data-aos="fade-left" data-aos-delay="1000">
                 <div class="p-5 py-2">
                   <v-icon
-                    icon="mdi-book-heart-outline"
+                    icon="mdi-cake-variant"
                     class="mb-2"
                     size="25"
                     color="white"
                   ></v-icon>
-                  <h4 class="text-2xl text-white text-nowrap">Akad Nikah</h4>
+                  <h4 class="text-3xl text-white text-nowrap">Tasyukuran</h4>
                 </div>
                 <div>
                   <div
@@ -39,34 +39,25 @@ const props = defineProps({ data: Object });
                   >
                     <div class="w-40">
                       <v-divider thickness="3" color="white" opacity="1" />
-                      <p class="my-2 text-center">
-                        {{ props.data?.acara?.akad_nikah?.hari }}
-                      </p>
+                      <p class="my-2 text-center">Senin</p>
                       <v-divider thickness="3" color="white" opacity="1" />
                     </div>
                     <div class="w-20">
-                      <p>
-                        {{ props.data?.acara?.akad_nikah?.tahun }}
-                      </p>
-                      <p class="text-3xl">
-                        {{ props.data?.acara?.akad_nikah?.tanggal }}
-                      </p>
-                      <p></p>
+                      <p>2025</p>
+                      <p class="text-3xl">25</p>
+                      <p>Jam 10.00</p>
                     </div>
                     <div class="w-40 text-center">
                       <v-divider thickness="3" color="white" opacity="1" />
-                      <p class="my-2">
-                        {{ props.data?.acara?.akad_nikah?.bulan }}
-                      </p>
+                      <p class="my-2">Juni</p>
                       <v-divider thickness="3" color="white" opacity="1" />
                     </div>
                   </div>
-                  <div class="text-center mt-4">
-                    <p>
-                      {{ props.data?.acara?.akad_nikah?.waktu }}
-                    </p>
-                    <p>
-                      {{ props.data?.acara?.akad_nikah?.tempat }}
+                  <div class="text-center">
+                    
+                    <p class="mt-5">
+                      Toko Bangunan Laris Berkah, Jatipurno, Jatipurno <br />
+                      KAB. WONOGIRI, JATIPURNO, JAWA TENGAH, ID, 57693
                     </p>
                   </div>
                 </div>

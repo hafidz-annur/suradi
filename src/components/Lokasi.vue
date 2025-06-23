@@ -2,7 +2,7 @@
 const props = defineProps({ data: Object });
 </script>
 <template>
-  <v-container class="relative h-[30dvh] p-0 overflow-hidden">
+  <v-container class="relative p-0 overflow-hidden">
     <div
       class="flex items-center justify-center bg-white/80 pb-10"
     >

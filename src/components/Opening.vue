@@ -49,11 +49,9 @@ const saveCalendar = () => {
         >
           <p class="text-[12px] mt-3">
             Assalamu’alaikum warahmatullahi wabarakatuh. <br />
-
-            Dengan memohon rahmat dan ridha Allah SWT, kami mengundang
-            Bapak/Ibu/Saudara/i untuk hadir dalam acara syukuran ulang tahun
-            ke-70 sebagai ungkapan rasa syukur atas nikmat usia dan kesehatan
-            yang telah Allah limpahkan.
+            Dengan izin Allah SWT, kami mengundang Bapak/Ibu/Saudara/i ke
+            syukuran ulang tahun ke-70 sebagai wujud syukur atas nikmat usia dan
+            kesehatan.
           </p>
         </div>
 
