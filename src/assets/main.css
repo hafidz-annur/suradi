@@ -1,0 +1,22 @@
+@import './base.css';
+
+/* font heading  */
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+/* font paragraph */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, p, small {
+  font-family: "Nunito", sans-serif;
+  color: #e3e3e3;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Birthstone", cursive;
+  color: #fff;
+}
